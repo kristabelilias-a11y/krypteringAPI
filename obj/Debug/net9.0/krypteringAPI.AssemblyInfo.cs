@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("krypteringAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+622b2fa267dfcfab9595b20b5db76dcad0083c79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b7483eb01d6e821dd1d025133b8f6d2e560d332")]
 [assembly: System.Reflection.AssemblyProductAttribute("krypteringAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("krypteringAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
