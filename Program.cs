@@ -1,14 +1,17 @@
+using Microsoft.AspNetCore.Mvc.ApplicationParts;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services
+    .AddMvcCore()
+    .AddApiExplorer()
+    .AddApplicationPart(typeof(CryptoController).Assembly)
+    .AddControllersAsServices();
 
-// Swagger
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Swagger middleware
 app.UseSwagger();
 app.UseSwaggerUI();
 
